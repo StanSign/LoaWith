@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		244294DDD56DAC890DCAF247 /* Pods_LoaWith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B76D0A588ECA08F260E17 /* Pods_LoaWith.framework */; };
 		2EA7A97128C990F10012A8BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A97028C990F10012A8BB /* AppDelegate.swift */; };
 		2EA7A97328C990F10012A8BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A97228C990F10012A8BB /* SceneDelegate.swift */; };
-		2EA7A97528C990F10012A8BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A97428C990F10012A8BB /* ViewController.swift */; };
 		2EA7A97828C990F10012A8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA7A97628C990F10012A8BB /* Main.storyboard */; };
 		2EA7A97A28C990F30012A8BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA7A97928C990F30012A8BB /* Assets.xcassets */; };
 		2EA7A97D28C990F30012A8BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA7A97B28C990F30012A8BB /* LaunchScreen.storyboard */; };
@@ -39,7 +39,6 @@
 		2EA7A96D28C990F10012A8BB /* LoaWith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoaWith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA7A97028C990F10012A8BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA7A97228C990F10012A8BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EA7A97428C990F10012A8BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EA7A97728C990F10012A8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EA7A97928C990F30012A8BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EA7A97C28C990F30012A8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		2EA7A98D28C990F30012A8BB /* LoaWithUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoaWithUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA7A99128C990F30012A8BB /* LoaWithUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaWithUITests.swift; sourceTree = "<group>"; };
 		2EA7A99328C990F30012A8BB /* LoaWithUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaWithUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DEBCFB75B1B13E33B63E55B /* Pods-LoaWith.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoaWith.release.xcconfig"; path = "Target Support Files/Pods-LoaWith/Pods-LoaWith.release.xcconfig"; sourceTree = "<group>"; };
+		774B76D0A588ECA08F260E17 /* Pods_LoaWith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoaWith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35B585AAADEEBF810B16AAE /* Pods-LoaWith.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoaWith.debug.xcconfig"; path = "Target Support Files/Pods-LoaWith/Pods-LoaWith.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244294DDD56DAC890DCAF247 /* Pods_LoaWith.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +79,133 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0311FB28CA8345006D4E89 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2EA7A97028C990F10012A8BB /* AppDelegate.swift */,
+				2EA7A97B28C990F30012A8BB /* LaunchScreen.storyboard */,
+				2EA7A97228C990F10012A8BB /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2E0311FC28CA8351006D4E89 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2E03120728CA852B006D4E89 /* DataMapping */,
+				2E03120628CA8522006D4E89 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2E0311FD28CA8357006D4E89 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2E03120128CA844C006D4E89 /* Common */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2E0311FE28CA8367006D4E89 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2E03120A28CA8542006D4E89 /* Model */,
+				2E03120928CA853C006D4E89 /* UseCase */,
+				2E03120828CA8535006D4E89 /* Interface */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2E0311FF28CA838E006D4E89 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2E03120028CA83CB006D4E89 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2E03120528CA84CF006D4E89 /* Assets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2E03120128CA844C006D4E89 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2E03120228CA8453006D4E89 /* Coordinator */,
+				2E03120328CA8459006D4E89 /* View */,
+				2E03120428CA845F006D4E89 /* ViewController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2E03120228CA8453006D4E89 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2E03120328CA8459006D4E89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EA7A97628C990F10012A8BB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E03120428CA845F006D4E89 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E03120528CA84CF006D4E89 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2EA7A97928C990F30012A8BB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2E03120628CA8522006D4E89 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2E03120728CA852B006D4E89 /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		2E03120828CA8535006D4E89 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		2E03120928CA853C006D4E89 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		2E03120A28CA8542006D4E89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2EA7A96428C990F10012A8BB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +213,8 @@
 				2EA7A98628C990F30012A8BB /* LoaWithTests */,
 				2EA7A99028C990F30012A8BB /* LoaWithUITests */,
 				2EA7A96E28C990F10012A8BB /* Products */,
+				F55FA2C2223E3773D7D75FC7 /* Pods */,
+				9FB392C021568FB2B4A909EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +231,12 @@
 		2EA7A96F28C990F10012A8BB /* LoaWith */ = {
 			isa = PBXGroup;
 			children = (
-				2EA7A97028C990F10012A8BB /* AppDelegate.swift */,
-				2EA7A97228C990F10012A8BB /* SceneDelegate.swift */,
-				2EA7A97428C990F10012A8BB /* ViewController.swift */,
-				2EA7A97628C990F10012A8BB /* Main.storyboard */,
-				2EA7A97928C990F30012A8BB /* Assets.xcassets */,
-				2EA7A97B28C990F30012A8BB /* LaunchScreen.storyboard */,
+				2E0311FB28CA8345006D4E89 /* Application */,
+				2E0311FC28CA8351006D4E89 /* Data */,
+				2E0311FE28CA8367006D4E89 /* Domain */,
+				2E0311FD28CA8357006D4E89 /* Presentation */,
+				2E03120028CA83CB006D4E89 /* Resource */,
+				2E0311FF28CA838E006D4E89 /* Util */,
 				2EA7A97E28C990F30012A8BB /* Info.plist */,
 			);
 			path = LoaWith;
@@ -127,6 +259,23 @@
 			path = LoaWithUITests;
 			sourceTree = "<group>";
 		};
+		9FB392C021568FB2B4A909EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				774B76D0A588ECA08F260E17 /* Pods_LoaWith.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F55FA2C2223E3773D7D75FC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C35B585AAADEEBF810B16AAE /* Pods-LoaWith.debug.xcconfig */,
+				3DEBCFB75B1B13E33B63E55B /* Pods-LoaWith.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EA7A99728C990F30012A8BB /* Build configuration list for PBXNativeTarget "LoaWith" */;
 			buildPhases = (
+				C05D0F96553C1CA9D77A299E /* [CP] Check Pods Manifest.lock */,
 				2EA7A96928C990F10012A8BB /* Sources */,
 				2EA7A96A28C990F10012A8BB /* Frameworks */,
 				2EA7A96B28C990F10012A8BB /* Resources */,
+				308DBF36E929B2DFDF617801 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +404,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		308DBF36E929B2DFDF617801 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoaWith/Pods-LoaWith-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoaWith/Pods-LoaWith-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoaWith/Pods-LoaWith-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05D0F96553C1CA9D77A299E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoaWith-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EA7A96928C990F10012A8BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA7A97528C990F10012A8BB /* ViewController.swift in Sources */,
 				2EA7A97128C990F10012A8BB /* AppDelegate.swift in Sources */,
 				2EA7A97328C990F10012A8BB /* SceneDelegate.swift in Sources */,
 			);
@@ -432,6 +624,7 @@
 		};
 		2EA7A99828C990F30012A8BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35B585AAADEEBF810B16AAE /* Pods-LoaWith.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +653,7 @@
 		};
 		2EA7A99928C990F30012A8BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DEBCFB75B1B13E33B63E55B /* Pods-LoaWith.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
