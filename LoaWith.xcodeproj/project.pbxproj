@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		244294DDD56DAC890DCAF247 /* Pods_LoaWith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774B76D0A588ECA08F260E17 /* Pods_LoaWith.framework */; };
+		2E504C1128CB03D300AE0D7F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C1028CB03D300AE0D7F /* AppCoordinator.swift */; };
+		2E504C1328CB03F300AE0D7F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C1228CB03F300AE0D7F /* Coordinator.swift */; };
+		2E504C1528CB05B000AE0D7F /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C1428CB05B000AE0D7F /* CoordinatorType.swift */; };
+		2E504C1928CB092300AE0D7F /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C1828CB092300AE0D7F /* HomeCoordinator.swift */; };
+		2E504C1E28CB09E300AE0D7F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C1D28CB09E300AE0D7F /* HomeViewController.swift */; };
+		2E504C2128CB0B0B00AE0D7F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2E504C2028CB0B0B00AE0D7F /* .swiftlint.yml */; };
 		2EA7A97128C990F10012A8BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A97028C990F10012A8BB /* AppDelegate.swift */; };
 		2EA7A97328C990F10012A8BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A97228C990F10012A8BB /* SceneDelegate.swift */; };
 		2EA7A97828C990F10012A8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA7A97628C990F10012A8BB /* Main.storyboard */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E504C1028CB03D300AE0D7F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		2E504C1228CB03F300AE0D7F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2E504C1428CB05B000AE0D7F /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		2E504C1828CB092300AE0D7F /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		2E504C1D28CB09E300AE0D7F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E504C2028CB0B0B00AE0D7F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		2EA7A96D28C990F10012A8BB /* LoaWith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoaWith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA7A97028C990F10012A8BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA7A97228C990F10012A8BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				2E03120128CA844C006D4E89 /* Common */,
+				2E504C1628CB08FF00AE0D7F /* HomeScene */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -136,18 +149,11 @@
 		2E03120128CA844C006D4E89 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				2E03120228CA8453006D4E89 /* Coordinator */,
+				2E504C0F28CB03C700AE0D7F /* Coordinator */,
 				2E03120328CA8459006D4E89 /* View */,
 				2E03120428CA845F006D4E89 /* ViewController */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		2E03120228CA8453006D4E89 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		2E03120328CA8459006D4E89 /* View */ = {
@@ -211,6 +217,7 @@
 		2E504C0B28CB028A00AE0D7F /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				2E504C1428CB05B000AE0D7F /* CoordinatorType.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -222,9 +229,60 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		2E504C0F28CB03C700AE0D7F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2E504C1028CB03D300AE0D7F /* AppCoordinator.swift */,
+				2E504C1228CB03F300AE0D7F /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2E504C1628CB08FF00AE0D7F /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				2E504C1728CB091200AE0D7F /* Coordinator */,
+				2E504C1A28CB099900AE0D7F /* View */,
+				2E504C1B28CB09A300AE0D7F /* ViewController */,
+				2E504C1C28CB09B400AE0D7F /* ViewModel */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		2E504C1728CB091200AE0D7F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2E504C1828CB092300AE0D7F /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2E504C1A28CB099900AE0D7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E504C1B28CB09A300AE0D7F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E504C1D28CB09E300AE0D7F /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E504C1C28CB09B400AE0D7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		2EA7A96428C990F10012A8BB = {
 			isa = PBXGroup;
 			children = (
+				2E504C2028CB0B0B00AE0D7F /* .swiftlint.yml */,
 				2EA7A96F28C990F10012A8BB /* LoaWith */,
 				2EA7A98628C990F30012A8BB /* LoaWithTests */,
 				2EA7A99028C990F30012A8BB /* LoaWithUITests */,
@@ -300,6 +358,7 @@
 			buildConfigurationList = 2EA7A99728C990F30012A8BB /* Build configuration list for PBXNativeTarget "LoaWith" */;
 			buildPhases = (
 				C05D0F96553C1CA9D77A299E /* [CP] Check Pods Manifest.lock */,
+				2E504C1F28CB0A9400AE0D7F /* SwiftLint Script */,
 				2EA7A96928C990F10012A8BB /* Sources */,
 				2EA7A96A28C990F10012A8BB /* Frameworks */,
 				2EA7A96B28C990F10012A8BB /* Resources */,
@@ -398,6 +457,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E504C2128CB0B0B00AE0D7F /* .swiftlint.yml in Resources */,
 				2EA7A97D28C990F30012A8BB /* LaunchScreen.storyboard in Resources */,
 				2EA7A97A28C990F30012A8BB /* Assets.xcassets in Resources */,
 				2EA7A97828C990F10012A8BB /* Main.storyboard in Resources */,
@@ -421,6 +481,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2E504C1F28CB0A9400AE0D7F /* SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		308DBF36E929B2DFDF617801 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,8 +545,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E504C1328CB03F300AE0D7F /* Coordinator.swift in Sources */,
+				2E504C1128CB03D300AE0D7F /* AppCoordinator.swift in Sources */,
 				2EA7A97128C990F10012A8BB /* AppDelegate.swift in Sources */,
 				2EA7A97328C990F10012A8BB /* SceneDelegate.swift in Sources */,
+				2E504C1528CB05B000AE0D7F /* CoordinatorType.swift in Sources */,
+				2E504C1E28CB09E300AE0D7F /* HomeViewController.swift in Sources */,
+				2E504C1928CB092300AE0D7F /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,19 @@
+# Default Rules에서 비활성화 할 규칙
+# https://realm.github.io/SwiftLint/rule-directory.html
+disabled_rules:
+    # 라인 뒤에 공백이 없어야 합니다.
+    # https://realm.github.io/SwiftLint/trailing_whitespace.html
+    - trailing_whitespace
+
+# 기본적으로는 비활성화 되어있지만 활성화하고 싶은 규칙
+# https://realm.github.io/SwiftLint/rule-directory.html
+opt_in_rules:
+    # 빈 String 문자열과 비교하는 것 보다는 .isEmpty를 사용하는 것이 좋습니다.
+    # https://realm.github.io/SwiftLint/empty_string.html
+    - empty_string
+
+# SwiftLint 검사에서 제외할 파일 경로
+excluded:
+    - Pods
+    - LoaWith/Appdelegate.swift
+    - LoaWith/SceneDelegate.swift
