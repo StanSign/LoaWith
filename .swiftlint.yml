@@ -4,6 +4,14 @@ disabled_rules:
     # 라인 뒤에 공백이 없어야 합니다.
     # https://realm.github.io/SwiftLint/trailing_whitespace.html
     - trailing_whitespace
+    
+    # 강제 캐스팅은 피해야합니다.
+    # https://realm.github.io/SwiftLint/force_cast.html
+    - force_cast
+    
+    # 강제 언래핑은 피해야합니다.
+    # https://realm.github.io/SwiftLint/force_unwrapping.html
+    - force_unwrapping
 
 # 기본적으로는 비활성화 되어있지만 활성화하고 싶은 규칙
 # https://realm.github.io/SwiftLint/rule-directory.html
@@ -11,6 +19,10 @@ opt_in_rules:
     # 빈 String 문자열과 비교하는 것 보다는 .isEmpty를 사용하는 것이 좋습니다.
     # https://realm.github.io/SwiftLint/empty_string.html
     - empty_string
+
+line_length:
+    warning: 250
+    ignores_comments: true
 
 # SwiftLint 검사에서 포함할 파일 경로
 included:
