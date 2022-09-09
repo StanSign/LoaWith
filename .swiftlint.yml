@@ -12,6 +12,10 @@ opt_in_rules:
     # https://realm.github.io/SwiftLint/empty_string.html
     - empty_string
 
+# SwiftLint 검사에서 포함할 파일 경로
+included:
+    -
+
 # SwiftLint 검사에서 제외할 파일 경로
 excluded:
     - Pods
