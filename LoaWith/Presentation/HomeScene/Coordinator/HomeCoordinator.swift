@@ -12,7 +12,7 @@ protocol HomeCoordinator: Coordinator {
 }
 
 final class DefaultHomeCoordinator: HomeCoordinator {
-    var finishDelegate: CoordinatorFinishDelegate?
+    weak var finishDelegate: CoordinatorFinishDelegate?
     var navigationController: UINavigationController
     var homeViewController: HomeViewController
     var childCoordinators: [Coordinator] = []
