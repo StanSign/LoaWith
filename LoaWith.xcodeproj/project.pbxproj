@@ -18,6 +18,10 @@
 		2E504C2928CB407B00AE0D7F /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C2828CB407B00AE0D7F /* HomeUseCase.swift */; };
 		2E504C2B28CB41CA00AE0D7F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E504C2A28CB41CA00AE0D7F /* Home.storyboard */; };
 		2E504C2D28CB42D900AE0D7F /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C2C28CB42D900AE0D7F /* UIConstants.swift */; };
+		2E504C3828CDA48700AE0D7F /* TopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C3728CDA48700AE0D7F /* TopMenuView.swift */; };
+		2E504C3A28CDA49500AE0D7F /* TopMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E504C3928CDA49500AE0D7F /* TopMenuView.xib */; };
+		2E504C3D28CDC88800AE0D7F /* XibUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C3C28CDC88800AE0D7F /* XibUIView.swift */; };
+		2E504C3F28CDC90E00AE0D7F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C3E28CDC90E00AE0D7F /* UIView.swift */; };
 		2EA7A97128C990F10012A8BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A97028C990F10012A8BB /* AppDelegate.swift */; };
 		2EA7A97328C990F10012A8BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A97228C990F10012A8BB /* SceneDelegate.swift */; };
 		2EA7A97828C990F10012A8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA7A97628C990F10012A8BB /* Main.storyboard */; };
@@ -56,6 +60,10 @@
 		2E504C2828CB407B00AE0D7F /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		2E504C2A28CB41CA00AE0D7F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		2E504C2C28CB42D900AE0D7F /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		2E504C3728CDA48700AE0D7F /* TopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuView.swift; sourceTree = "<group>"; };
+		2E504C3928CDA49500AE0D7F /* TopMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMenuView.xib; sourceTree = "<group>"; };
+		2E504C3C28CDC88800AE0D7F /* XibUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibUIView.swift; sourceTree = "<group>"; };
+		2E504C3E28CDC90E00AE0D7F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		2EA7A96D28C990F10012A8BB /* LoaWith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoaWith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA7A97028C990F10012A8BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA7A97228C990F10012A8BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				2E504C0B28CB028A00AE0D7F /* Constants */,
+				2E504C3B28CDC86700AE0D7F /* CustomUIKit */,
 				2E504C0C28CB029300AE0D7F /* Extension */,
 			);
 			path = Util;
@@ -196,6 +205,7 @@
 		2E504C0C28CB029300AE0D7F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2E504C3E28CDC90E00AE0D7F /* UIView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -232,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				2E504C2A28CB41CA00AE0D7F /* Home.storyboard */,
+				2E504C3928CDA49500AE0D7F /* TopMenuView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				2E504C1D28CB09E300AE0D7F /* HomeViewController.swift */,
+				2E504C3728CDA48700AE0D7F /* TopMenuView.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -289,6 +301,14 @@
 			children = (
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E504C3B28CDC86700AE0D7F /* CustomUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E504C3C28CDC88800AE0D7F /* XibUIView.swift */,
+			);
+			path = CustomUIKit;
 			sourceTree = "<group>";
 		};
 		2EA7A96428C990F10012A8BB = {
@@ -470,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E504C2128CB0B0B00AE0D7F /* .swiftlint.yml in Resources */,
+				2E504C3A28CDA49500AE0D7F /* TopMenuView.xib in Resources */,
 				2E504C2B28CB41CA00AE0D7F /* Home.storyboard in Resources */,
 				2EA7A97D28C990F30012A8BB /* LaunchScreen.storyboard in Resources */,
 				2EA7A97A28C990F30012A8BB /* Assets.xcassets in Resources */,
@@ -558,11 +579,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E504C3F28CDC90E00AE0D7F /* UIView.swift in Sources */,
 				2E504C2928CB407B00AE0D7F /* HomeUseCase.swift in Sources */,
 				2E504C1328CB03F300AE0D7F /* Coordinator.swift in Sources */,
 				2E504C1128CB03D300AE0D7F /* AppCoordinator.swift in Sources */,
 				2EA7A97128C990F10012A8BB /* AppDelegate.swift in Sources */,
+				2E504C3828CDA48700AE0D7F /* TopMenuView.swift in Sources */,
 				2E504C2328CB3F4700AE0D7F /* HomeViewModel.swift in Sources */,
+				2E504C3D28CDC88800AE0D7F /* XibUIView.swift in Sources */,
 				2EA7A97328C990F10012A8BB /* SceneDelegate.swift in Sources */,
 				2E504C1528CB05B000AE0D7F /* CoordinatorType.swift in Sources */,
 				2E504C1E28CB09E300AE0D7F /* HomeViewController.swift in Sources */,
