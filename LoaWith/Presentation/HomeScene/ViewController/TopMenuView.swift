@@ -8,17 +8,13 @@
 import UIKit
 
 import SnapKit
+import Then
 
 class TopMenuView: XibUIView {
     // MARK: - Constants
     
     // MARK: - IBOutlets
     @IBOutlet weak var stackView: UIStackView!
-    
-    lazy var menuButton: UIImageView = {
-        let menuButton = UIImageView()
-        return menuButton
-    }()
 
     override init(frame: CGRect) {
         super.init(frame: frame)

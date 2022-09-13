@@ -17,30 +17,18 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalSpacing" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="tlO-El-L8c">
-                    <rect key="frame" x="243" y="0.0" width="108" height="40"/>
+                <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalSpacing" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="tlO-El-L8c">
+                    <rect key="frame" x="327" y="0.0" width="24" height="40"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uMJ-LM-Wxp">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKh-R6-Yo6">
                             <rect key="frame" x="0.0" y="8" width="24" height="24"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="24" id="GeU-mQ-cv4"/>
-                                <constraint firstAttribute="width" constant="24" id="Lbf-Gk-XUO"/>
+                                <constraint firstAttribute="height" constant="24" id="8Rk-9m-wmb"/>
+                                <constraint firstAttribute="width" constant="24" id="Lgq-Kx-GVa"/>
                             </constraints>
-                        </imageView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jC2-9E-Nnb">
-                            <rect key="frame" x="42" y="8" width="24" height="24"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="24" id="2Ns-tT-ylO"/>
-                                <constraint firstAttribute="height" constant="24" id="Ux8-Pt-7Ts"/>
-                            </constraints>
-                        </imageView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="LO7-06-q7I">
-                            <rect key="frame" x="84" y="13" width="24" height="14.5"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="24" id="8qo-LX-yiF"/>
-                                <constraint firstAttribute="width" constant="24" id="fOo-WE-bUR"/>
-                            </constraints>
-                        </imageView>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
+                        </button>
                     </subviews>
                 </stackView>
             </subviews>
@@ -56,7 +44,6 @@
         </view>
     </objects>
     <resources>
-        <image name="chevron.down" catalog="system" width="128" height="72"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
