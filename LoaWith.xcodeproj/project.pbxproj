@@ -30,6 +30,7 @@
 		2EA7A98828C990F30012A8BB /* LoaWithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A98728C990F30012A8BB /* LoaWithTests.swift */; };
 		2EA7A99228C990F30012A8BB /* LoaWithUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A99128C990F30012A8BB /* LoaWithUITests.swift */; };
 		2EA7A99428C990F30012A8BB /* LoaWithUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A99328C990F30012A8BB /* LoaWithUITestsLaunchTests.swift */; };
+		2ECC586428CDE28600C2D457 /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC586328CDE28600C2D457 /* SystemIcons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		2EA7A98D28C990F30012A8BB /* LoaWithUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoaWithUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA7A99128C990F30012A8BB /* LoaWithUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaWithUITests.swift; sourceTree = "<group>"; };
 		2EA7A99328C990F30012A8BB /* LoaWithUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaWithUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2ECC586328CDE28600C2D457 /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
 		3DEBCFB75B1B13E33B63E55B /* Pods-LoaWith.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoaWith.release.xcconfig"; path = "Target Support Files/Pods-LoaWith/Pods-LoaWith.release.xcconfig"; sourceTree = "<group>"; };
 		774B76D0A588ECA08F260E17 /* Pods_LoaWith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoaWith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35B585AAADEEBF810B16AAE /* Pods-LoaWith.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoaWith.debug.xcconfig"; path = "Target Support Files/Pods-LoaWith/Pods-LoaWith.debug.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				2E504C1428CB05B000AE0D7F /* CoordinatorType.swift */,
+				2ECC586328CDE28600C2D457 /* SystemIcons.swift */,
 				2E504C2C28CB42D900AE0D7F /* UIConstants.swift */,
 			);
 			path = Constants;
@@ -592,6 +595,7 @@
 				2E504C1E28CB09E300AE0D7F /* HomeViewController.swift in Sources */,
 				2E504C2D28CB42D900AE0D7F /* UIConstants.swift in Sources */,
 				2E504C1928CB092300AE0D7F /* HomeCoordinator.swift in Sources */,
+				2ECC586428CDE28600C2D457 /* SystemIcons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

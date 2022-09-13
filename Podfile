@@ -8,13 +8,17 @@ target 'LoaWith' do
   # Pods for LoaWith
   pod 'RealmSwift'
   pod 'Hero'
-  pod 'RxSwift'
-  pod 'RxRelay'
   pod 'Alamofire'
   pod 'SwiftSoup'
   pod 'Kingfisher'
   pod 'SnapKit'
   pod 'Then'
+
+  # RxSwift
+  pod 'RxSwift'
+  pod 'RxRelay'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
 
   # Firebase
   pod 'FirebaseAnalytics'

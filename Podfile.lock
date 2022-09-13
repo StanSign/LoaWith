@@ -603,6 +603,7 @@ PODS:
   - BoringSSL-GRPC/Implementation (0.0.24):
     - BoringSSL-GRPC/Interface (= 0.0.24)
   - BoringSSL-GRPC/Interface (0.0.24)
+  - Differentiator (5.0.0)
   - FirebaseAnalytics (9.5.0):
     - FirebaseAnalytics/AdIdSupport (= 9.5.0)
     - FirebaseCore (~> 9.0)
@@ -771,6 +772,13 @@ PODS:
   - Realm/Headers (10.28.6)
   - RealmSwift (10.28.6):
     - Realm (= 10.28.6)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
@@ -786,6 +794,8 @@ DEPENDENCIES:
   - Hero
   - Kingfisher
   - RealmSwift
+  - RxCocoa
+  - RxDataSources
   - RxRelay
   - RxSwift
   - SnapKit
@@ -797,6 +807,7 @@ SPEC REPOS:
     - abseil
     - Alamofire
     - BoringSSL-GRPC
+    - Differentiator
     - FirebaseAnalytics
     - FirebaseAuth
     - FirebaseCore
@@ -818,6 +829,8 @@ SPEC REPOS:
     - PromisesObjC
     - Realm
     - RealmSwift
+    - RxCocoa
+    - RxDataSources
     - RxRelay
     - RxSwift
     - SnapKit
@@ -828,6 +841,7 @@ SPEC CHECKSUMS:
   abseil: ebe5b5529fb05d93a8bdb7951607be08b7fa71bc
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
   BoringSSL-GRPC: 3175b25143e648463a56daeaaa499c6cb86dad33
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   FirebaseAnalytics: 1b60984a408320dda637306f3f733699ef8473d7
   FirebaseAuth: 741918f1fa62ed23246a509279f91d42d79a713f
   FirebaseCore: 25c0400b670fd1e2f2104349cd3b5dcce8d9418f
@@ -849,12 +863,14 @@ SPEC CHECKSUMS:
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   Realm: 9b12f16a14446d7d46a9e36225d0a0332a6ec739
   RealmSwift: 5927726fce21005f43b1fb57c832297a22031bfc
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftSoup: 3384f2e618cfc1b3cbc7852c16692fe8de13fb8f
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
 
-PODFILE CHECKSUM: 65ec116d1408befe20c12b480ffa1983e8beedb4
+PODFILE CHECKSUM: 669623ce163eaa7171b0ccfd7a78bc2391959002
 
 COCOAPODS: 1.11.3
