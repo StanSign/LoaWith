@@ -22,6 +22,18 @@
 		2E504C3A28CDA49500AE0D7F /* TopMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E504C3928CDA49500AE0D7F /* TopMenuView.xib */; };
 		2E504C3D28CDC88800AE0D7F /* XibUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C3C28CDC88800AE0D7F /* XibUIView.swift */; };
 		2E504C3F28CDC90E00AE0D7F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E504C3E28CDC90E00AE0D7F /* UIView.swift */; };
+		2E66230428D0575D00298CBE /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66230328D0575D00298CBE /* SearchCoordinator.swift */; };
+		2E66230628D0635C00298CBE /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66230528D0635C00298CBE /* SearchViewModel.swift */; };
+		2E66230828D063A300298CBE /* SearchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66230728D063A300298CBE /* SearchUseCase.swift */; };
+		2E66230A28D0640800298CBE /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E66230928D0640800298CBE /* Search.storyboard */; };
+		2E66230C28D0641900298CBE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66230B28D0641900298CBE /* SearchViewController.swift */; };
+		2E66231528D065D500298CBE /* NotificationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66231428D065D500298CBE /* NotificationCoordinator.swift */; };
+		2E66231728D0661C00298CBE /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66231628D0661C00298CBE /* NotificationViewController.swift */; };
+		2E66231928D0662400298CBE /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E66231828D0662400298CBE /* Notification.storyboard */; };
+		2E66231B28D0670C00298CBE /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66231A28D0670C00298CBE /* SearchRepository.swift */; };
+		2E66231D28D0673F00298CBE /* DefaultSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66231C28D0673F00298CBE /* DefaultSearchRepository.swift */; };
+		2E66231F28D067F300298CBE /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66231E28D067F300298CBE /* NotificationViewModel.swift */; };
+		2E66232128D0684400298CBE /* NotificationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66232028D0684400298CBE /* NotificationUseCase.swift */; };
 		2EA7A97128C990F10012A8BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A97028C990F10012A8BB /* AppDelegate.swift */; };
 		2EA7A97328C990F10012A8BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7A97228C990F10012A8BB /* SceneDelegate.swift */; };
 		2EA7A97828C990F10012A8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA7A97628C990F10012A8BB /* Main.storyboard */; };
@@ -65,6 +77,18 @@
 		2E504C3928CDA49500AE0D7F /* TopMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMenuView.xib; sourceTree = "<group>"; };
 		2E504C3C28CDC88800AE0D7F /* XibUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibUIView.swift; sourceTree = "<group>"; };
 		2E504C3E28CDC90E00AE0D7F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		2E66230328D0575D00298CBE /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		2E66230528D0635C00298CBE /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		2E66230728D063A300298CBE /* SearchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUseCase.swift; sourceTree = "<group>"; };
+		2E66230928D0640800298CBE /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		2E66230B28D0641900298CBE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2E66231428D065D500298CBE /* NotificationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCoordinator.swift; sourceTree = "<group>"; };
+		2E66231628D0661C00298CBE /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		2E66231828D0662400298CBE /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		2E66231A28D0670C00298CBE /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		2E66231C28D0673F00298CBE /* DefaultSearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSearchRepository.swift; sourceTree = "<group>"; };
+		2E66231E28D067F300298CBE /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		2E66232028D0684400298CBE /* NotificationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUseCase.swift; sourceTree = "<group>"; };
 		2EA7A96D28C990F10012A8BB /* LoaWith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoaWith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA7A97028C990F10012A8BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA7A97228C990F10012A8BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,20 +143,13 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		2E0311FC28CA8351006D4E89 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				2E03120728CA852B006D4E89 /* DataMapping */,
-				2E03120628CA8522006D4E89 /* Repository */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		2E0311FD28CA8357006D4E89 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				2E6622FE28D0549000298CBE /* SearchScene */,
 				2E03120128CA844C006D4E89 /* Common */,
 				2E504C1628CB08FF00AE0D7F /* HomeScene */,
+				2E6622F928D0545A00298CBE /* NotificationScene */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -179,20 +196,6 @@
 				2EA7A97928C990F30012A8BB /* Assets.xcassets */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		2E03120628CA8522006D4E89 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repository;
-			sourceTree = "<group>";
-		};
-		2E03120728CA852B006D4E89 /* DataMapping */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataMapping;
 			sourceTree = "<group>";
 		};
 		2E504C0B28CB028A00AE0D7F /* Constants */ = {
@@ -280,6 +283,7 @@
 		2E504C2528CB405900AE0D7F /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				2E66230D28D0651C00298CBE /* Repository */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -288,6 +292,8 @@
 			isa = PBXGroup;
 			children = (
 				2E504C2828CB407B00AE0D7F /* HomeUseCase.swift */,
+				2E66232028D0684400298CBE /* NotificationUseCase.swift */,
+				2E66230728D063A300298CBE /* SearchUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -312,6 +318,148 @@
 				2E504C3C28CDC88800AE0D7F /* XibUIView.swift */,
 			);
 			path = CustomUIKit;
+			sourceTree = "<group>";
+		};
+		2E6622F928D0545A00298CBE /* NotificationScene */ = {
+			isa = PBXGroup;
+			children = (
+				2E6622FD28D0548A00298CBE /* Coordinator */,
+				2E6622FC28D0548500298CBE /* View */,
+				2E6622FB28D0547F00298CBE /* ViewController */,
+				2E6622FA28D0547A00298CBE /* ViewModel */,
+			);
+			path = NotificationScene;
+			sourceTree = "<group>";
+		};
+		2E6622FA28D0547A00298CBE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E66231E28D067F300298CBE /* NotificationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2E6622FB28D0547F00298CBE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E66231628D0661C00298CBE /* NotificationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E6622FC28D0548500298CBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E66231828D0662400298CBE /* Notification.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E6622FD28D0548A00298CBE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2E66231428D065D500298CBE /* NotificationCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2E6622FE28D0549000298CBE /* SearchScene */ = {
+			isa = PBXGroup;
+			children = (
+				2E66230228D056C200298CBE /* Coordinator */,
+				2E66230128D056BD00298CBE /* View */,
+				2E66230028D056B700298CBE /* ViewController */,
+				2E6622FF28D056B100298CBE /* ViewModel */,
+			);
+			path = SearchScene;
+			sourceTree = "<group>";
+		};
+		2E6622FF28D056B100298CBE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E66230528D0635C00298CBE /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2E66230028D056B700298CBE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E66230B28D0641900298CBE /* SearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E66230128D056BD00298CBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E66230928D0640800298CBE /* Search.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E66230228D056C200298CBE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2E66230328D0575D00298CBE /* SearchCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2E66230D28D0651C00298CBE /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2E66231A28D0670C00298CBE /* SearchRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2E66230E28D0652500298CBE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2E66231028D0653700298CBE /* DataMapping */,
+				2E66230F28D0653200298CBE /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2E66230F28D0653200298CBE /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2E66231128D0654200298CBE /* Home */,
+				2E66231328D0659400298CBE /* Notification */,
+				2E66231228D0654500298CBE /* Search */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2E66231028D0653700298CBE /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		2E66231128D0654200298CBE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2E66231228D0654500298CBE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2E66231C28D0673F00298CBE /* DefaultSearchRepository.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		2E66231328D0659400298CBE /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 		2EA7A96428C990F10012A8BB = {
@@ -341,7 +489,7 @@
 			isa = PBXGroup;
 			children = (
 				2E0311FB28CA8345006D4E89 /* Application */,
-				2E0311FC28CA8351006D4E89 /* Data */,
+				2E66230E28D0652500298CBE /* Data */,
 				2E504C2428CB404F00AE0D7F /* Domain */,
 				2E0311FD28CA8357006D4E89 /* Presentation */,
 				2E03120028CA83CB006D4E89 /* Resource */,
@@ -496,6 +644,8 @@
 				2E504C3A28CDA49500AE0D7F /* TopMenuView.xib in Resources */,
 				2E504C2B28CB41CA00AE0D7F /* Home.storyboard in Resources */,
 				2EA7A97D28C990F30012A8BB /* LaunchScreen.storyboard in Resources */,
+				2E66230A28D0640800298CBE /* Search.storyboard in Resources */,
+				2E66231928D0662400298CBE /* Notification.storyboard in Resources */,
 				2EA7A97A28C990F30012A8BB /* Assets.xcassets in Resources */,
 				2EA7A97828C990F10012A8BB /* Main.storyboard in Resources */,
 			);
@@ -583,17 +733,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E504C3F28CDC90E00AE0D7F /* UIView.swift in Sources */,
+				2E66230428D0575D00298CBE /* SearchCoordinator.swift in Sources */,
+				2E66231528D065D500298CBE /* NotificationCoordinator.swift in Sources */,
+				2E66230628D0635C00298CBE /* SearchViewModel.swift in Sources */,
 				2E504C2928CB407B00AE0D7F /* HomeUseCase.swift in Sources */,
+				2E66231D28D0673F00298CBE /* DefaultSearchRepository.swift in Sources */,
 				2E504C1328CB03F300AE0D7F /* Coordinator.swift in Sources */,
 				2E504C1128CB03D300AE0D7F /* AppCoordinator.swift in Sources */,
 				2EA7A97128C990F10012A8BB /* AppDelegate.swift in Sources */,
 				2E504C3828CDA48700AE0D7F /* TopMenuView.swift in Sources */,
 				2E504C2328CB3F4700AE0D7F /* HomeViewModel.swift in Sources */,
+				2E66231F28D067F300298CBE /* NotificationViewModel.swift in Sources */,
+				2E66232128D0684400298CBE /* NotificationUseCase.swift in Sources */,
+				2E66231728D0661C00298CBE /* NotificationViewController.swift in Sources */,
 				2E504C3D28CDC88800AE0D7F /* XibUIView.swift in Sources */,
 				2EA7A97328C990F10012A8BB /* SceneDelegate.swift in Sources */,
 				2E504C1528CB05B000AE0D7F /* CoordinatorType.swift in Sources */,
+				2E66230C28D0641900298CBE /* SearchViewController.swift in Sources */,
+				2E66230828D063A300298CBE /* SearchUseCase.swift in Sources */,
 				2E504C1E28CB09E300AE0D7F /* HomeViewController.swift in Sources */,
 				2E504C2D28CB42D900AE0D7F /* UIConstants.swift in Sources */,
+				2E66231B28D0670C00298CBE /* SearchRepository.swift in Sources */,
 				2E504C1928CB092300AE0D7F /* HomeCoordinator.swift in Sources */,
 				2ECC586428CDE28600C2D457 /* SystemIcons.swift in Sources */,
 			);

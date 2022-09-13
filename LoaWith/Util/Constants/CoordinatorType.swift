@@ -8,5 +8,5 @@
 // MARK: Coordinator Type
 
 enum CoordinatorType {
-    case app, home
+    case app, home, search, notification
 }

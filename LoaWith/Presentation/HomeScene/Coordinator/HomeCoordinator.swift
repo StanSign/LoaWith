@@ -8,7 +8,8 @@
 import UIKit
 
 protocol HomeCoordinator: Coordinator {
-    
+    func showSearchFlow()
+    func showNotificationFlow()
 }
 
 final class DefaultHomeCoordinator: HomeCoordinator {
@@ -42,5 +43,22 @@ final class DefaultHomeCoordinator: HomeCoordinator {
         self.navigationController.pushViewController(
             self.homeViewController, animated: true
         )
+    }
+    
+    func showNotificationFlow() {
+        let notificationCoordinator = DefaultNotificationCoordinator(self.navigationController)
+        notificationCoordinator.finishDelegate = self
+        self.childCoordinators.append(notificationCoordinator)
+        notificationCoordinator.start()
+    }
+    
+    func showSearchFlow() {
+        
+    }
+}
+
+extension DefaultHomeCoordinator: CoordinatorFinishDelegate {
+    func coordinatorDidFinish(childCoordinator: Coordinator) {
+        //
     }
 }
